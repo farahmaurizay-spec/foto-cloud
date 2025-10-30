@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #fdf6f0;
+  color: #444;
+  font-family: Poppins, Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;
+  margin: 0;
+}
+
+header {
+  text-align: center;
+  padding: 40px 0 10px;
+}
+
+h1 {
+  color: #ff9a9e;
+  margin-bottom: 6px;
+  font-size: 2rem;
+}
+
+.upload-box {
+  background: #fff;
+  border: 2px dashed #ffc0cb;
+  border-radius: 14px;
+  padding: 18px;
+  width: 90%;
+  max-width: 700px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+button {
+  background: #ffb6c1;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  margin-left: 8px;
+}
+
+button:hover {
+  background: #ff9a9e;
+}
+
+.status {
+  margin-top: 8px;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 14px;
+  width: 90%;
+  max-width: 1000px;
+  margin-bottom: 40px;
+}
+
+.card {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  background: #fff;
+}
+
+.card img {
+  width: 100%;
+  display: block;
+}
+
+.card .meta {
+  padding: 8px;
+  font-size: 0.85rem;
+  color: #666;
+  text-align: left;
+}
+
+footer {
+  margin-top: auto;
+  padding: 18px;
+  color: #777;
+}
